@@ -314,8 +314,12 @@ model_output.publish(insurance_model_adapter) # Publishes the model to Foundry
 ```
 Once the model registration is sucessful  we can move to modelling to deploy it.
 Like following we can directly run the model and check the values ![Deploy](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20000524.png)
-We can alos check the deployement logs like following ![deployment logs](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20000524.png)
+We can alos check the deployement logs like following ![deployment logs](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20000542.png)
 We can set checks and evaluation metrics so thatany new model gets released we run a evaluation on a data and check if the values are within our said threshold ![Evaluation Metrics](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20001017.png)
+
+Once deployed with proper configurations it can be accessed as api ![Container Details](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20002132.png)
+otherwise it can also be published as a function in ontology manager ![Model in Ontology Manager](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20001659.png)
+or imported in typescript repository ![Palantir TS repository](https://github.com/achaudhury7378/rocket-ship/blob/patch-2/images/Screenshot%202026-02-04%20001939.png)
 ## Comparison with Other MLOps Tools
 The table below compares Palantir Foundry with common MLOps tools, including MLflow, across core lifecycle capabilities.
 | Capability | Palantir Foundry | MLflow | Kubeflow | AWS SageMaker |
